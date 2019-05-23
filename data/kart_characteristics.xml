@@ -97,7 +97,7 @@
             max-speed-reverse-ratio is the percentage of max speed for reverse
                 gear.
           -->
-        <engine power="950" max-speed="250" generic-max-speed="250" brake-factor="15"
+        <engine power="950" max-speed="25" generic-max-speed="25" brake-factor="15"
                 brake-time-increase="6" max-speed-reverse-ratio="0.65" />
 
         <!-- Simulated gears
