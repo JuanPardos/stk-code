@@ -1,0 +1,13 @@
+prefix=C:/GIT/Kart Git/stk-code/out/install/x64-Debug
+exec_prefix=C:/GIT/Kart Git/stk-code/out/install/x64-Debug
+libdir=C:/GIT/Kart Git/stk-code/out/install/x64-Debug/lib
+sharedlibdir=C:/GIT/Kart Git/stk-code/out/install/x64-Debug/lib
+includedir=C:/GIT/Kart Git/stk-code/out/install/x64-Debug/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.7
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

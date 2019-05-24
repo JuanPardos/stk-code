@@ -1,0 +1,180 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/graphics_utils/graphics_utils.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"lib/graphics_utils/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 121,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 151,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 163,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 185,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 193,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 207,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MDd /ZI /Ob0 /Od /RTC1 /JMC  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "ENABLE_RECORDER"
+				},
+				{
+					"define" : "GLEW_NO_GLU"
+				},
+				{
+					"define" : "NO_IRR_COMPILE_WITH_X11_"
+				},
+				{
+					"define" : "SUPERTUXKART_VERSION=\"git\""
+				},
+				{
+					"define" : "_IRR_STATIC_LIB_"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/GIT/Kart Git/stk-code/dependencies-64bit/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/GIT/Kart Git/stk-code/lib/bullet/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/GIT/Kart Git/stk-code/lib/enet/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/GIT/Kart Git/stk-code/lib/glew/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/GIT/Kart Git/stk-code/lib/zlib"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/GIT/Kart Git/stk-code/lib/libpng"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "graphics_utils::@3454a71879650300a7c8",
+	"name" : "graphics_utils",
+	"nameOnDisk" : "graphics_utils.lib",
+	"paths" : 
+	{
+		"build" : "lib/graphics_utils",
+		"source" : "lib/graphics_utils"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/graphics_utils/mipmap/cpusimd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/graphics_utils/mipmap/imgresize.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

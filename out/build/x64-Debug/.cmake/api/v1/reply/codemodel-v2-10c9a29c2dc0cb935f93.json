@@ -1,0 +1,391 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"build" : "lib/bullet",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/bullet",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "lib/enet",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/enet",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lib/glew",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/glew",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "lib/zlib",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/zlib",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "lib/libpng",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/libpng",
+					"targetIndexes" : 
+					[
+						5,
+						8
+					]
+				},
+				{
+					"build" : "lib/graphics_utils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/graphics_utils",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "lib/libsquish",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/libsquish",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "lib/irrlicht",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/irrlicht",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "lib/wiiuse",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/wiiuse"
+				},
+				{
+					"build" : "lib/wiiuse/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 1,
+					"source" : "lib/wiiuse/src",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "lib/angelscript/projects/cmake",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/angelscript/projects/cmake",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "SuperTuxKart",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9,
+						10
+					],
+					"name" : "WiiUse",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "angelscript",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 11,
+					"id" : "angelscript::@37003902626309fe01f8",
+					"jsonFile" : "target-angelscript-Debug-bcde08a632d37b0d206e.json",
+					"name" : "angelscript",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bulletcollision::@d53a414ede07fb337f93",
+					"jsonFile" : "target-bulletcollision-Debug-52e891148afb0cec64da.json",
+					"name" : "bulletcollision",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bulletdynamics::@d53a414ede07fb337f93",
+					"jsonFile" : "target-bulletdynamics-Debug-73f727fe941ea3bc070c.json",
+					"name" : "bulletdynamics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bulletmath::@d53a414ede07fb337f93",
+					"jsonFile" : "target-bulletmath-Debug-5f46c1ff7393b05d6c7e.json",
+					"name" : "bulletmath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "enet::@d7c883207b9d340406f7",
+					"jsonFile" : "target-enet-Debug-39776808f65bb431053e.json",
+					"name" : "enet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "genfiles::@1af305f7d9b843772c32",
+					"jsonFile" : "target-genfiles-Debug-2a8b2d3be6229d09c6cd.json",
+					"name" : "genfiles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew::@f404f1a77aed5dbbeead",
+					"jsonFile" : "target-glew-Debug-a19a13e0a73d9f0e96a0.json",
+					"name" : "glew",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "graphics_utils::@3454a71879650300a7c8",
+					"jsonFile" : "target-graphics_utils-Debug-280706b349a8ac6ce051.json",
+					"name" : "graphics_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "png_static::@1af305f7d9b843772c32",
+					"jsonFile" : "target-png_static-Debug-f7cd63a484f845ed070f.json",
+					"name" : "png_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "squish::@c33fa90629265cecbab7",
+					"jsonFile" : "target-squish-Debug-00cb8829b5a39dbb43ff.json",
+					"name" : "squish",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "stkirrlicht::@147aa478c01a703f7012",
+					"jsonFile" : "target-stkirrlicht-Debug-9397d897567aff75d8c3.json",
+					"name" : "stkirrlicht",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "stkshaders::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stkshaders-Debug-6f60fd9b60feae628768.json",
+					"name" : "stkshaders",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "supertuxkart::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-supertuxkart-Debug-c5e8c0f7dedf1c98c57e.json",
+					"name" : "supertuxkart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "wiiuse::@18fce3b4795c112787ed",
+					"jsonFile" : "target-wiiuse-Debug-645875f1c365d771f567.json",
+					"name" : "wiiuse",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "zlib::@a1ffa1adf9725804340b",
+					"jsonFile" : "target-zlib-Debug-fc60ed140e1f74d82fa1.json",
+					"name" : "zlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "zlibstatic::@a1ffa1adf9725804340b",
+					"jsonFile" : "target-zlibstatic-Debug-4753a47be2c9ca326334.json",
+					"name" : "zlibstatic",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/GIT/Kart Git/stk-code/out/build/x64-Debug",
+		"source" : "C:/GIT/Kart Git/stk-code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
