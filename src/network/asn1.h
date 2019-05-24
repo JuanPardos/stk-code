@@ -60,18 +60,18 @@
 # define HEADER_ASN1_H
 
 # include <time.h>
-# include <openssl/e_os2.h>
+# include <network/e_os2.h>
 # ifndef OPENSSL_NO_BIO
-#  include <openssl/bio.h>
+#  include <network/bio.h>
 # endif
-# include <openssl/stack.h>
-# include <openssl/safestack.h>
+# include <network/stack.h>
+# include <network/safestack.h>
 
-# include <openssl/symhacks.h>
+# include <network/symhacks.h>
 
-# include <openssl/ossl_typ.h>
+# include <network/ossl_typ.h>
 # ifndef OPENSSL_NO_DEPRECATED
-#  include <openssl/bn.h>
+#  include <network/bn.h>
 # endif
 
 # ifdef OPENSSL_BUILD_SHLIBCRYPTO

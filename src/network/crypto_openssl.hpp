@@ -25,8 +25,8 @@
 
 #include <enet/enet.h>
 
-#include <openssl/evp.h>
-#include <openssl/rand.h>
+#include <network/evp.h>
+#include <network/rand.h>
 
 #include <algorithm>
 #include <array>

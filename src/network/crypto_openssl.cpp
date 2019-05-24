@@ -22,9 +22,9 @@
 #include "network/network_config.hpp"
 #include "network/network_string.hpp"
 
-#include <openssl/aes.h>
-#include <openssl/buffer.h>
-#include <openssl/hmac.h>
+#include <network/aes.h>
+#include <network/buffer.h>
+#include <network/hmac.h>
 
 // ============================================================================
 // AES GCM modes never writes anything when finalize, it only handles the tag
